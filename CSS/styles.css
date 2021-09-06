@@ -41,6 +41,20 @@ p {
   margin-bottom: 35px;
 }
 
+@media (min-width: 700px) {
+  .logo {
+    height: 24px;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
 /* form & illustration */
 
 input {
@@ -83,6 +97,29 @@ input {
   width: 100%;
   max-width: 300px;
   margin-bottom: 115px;
+}
+
+@media (min-width: 700px) {
+  input {
+    display: inline-block;
+    width: 420px;
+    height: 55px;
+    margin: 0 15px 70px 0;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+  }
+
+  .subscribe-form button {
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+  }
+
+  .illustration {
+    max-width: 640px;
+  }
 }
 
 /* social buttons */
